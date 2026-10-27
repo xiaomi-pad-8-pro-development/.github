@@ -1,7 +1,6 @@
 # Xiaomi Pad 8 Pro Development
 
-Android trees for the **Xiaomi Pad 8 Pro** (`piano`, Snapdragon 8 Elite,
-SM8750). Android 17 on HyperOS 4 China `OS4.0.0.44.XPYCNXM` firmware.
+This organization contains all the important repositories required to build custom ROMs for the Xiaomi Pad 8 Pro (Piano)
 
 Maintained by [@ALXP-DANIEL](https://github.com/ALXP-DANIEL).
 
