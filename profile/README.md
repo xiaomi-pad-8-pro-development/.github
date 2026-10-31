@@ -22,7 +22,7 @@ flowchart LR
     R[ROM patches] -.-> D
     M[local_manifests] ==>|repo sync| D
     D --> ROM((ROM))
-    REC[recovery] --> TWRP((TWRP / OrangeFox))
+    REC[recovery] --> TWRP((TWRP / YARP / OrangeFox))
 ```
 
 Dashed: optional.
@@ -50,6 +50,6 @@ repo sync
 | [camera](https://github.com/xiaomi-pad-8-pro-development/android_vendor_xiaomi_piano-xiaomi-camera) | Xiaomi camera | `vendor/xiaomi/piano-xiaomi-camera` |
 | [Xiaomi Notes](https://github.com/xiaomi-pad-8-pro-development/android_vendor_xiaomi_piano-xiaomi-notes) | Offline Xiaomi Notes | `vendor/xiaomi/piano-xiaomi-notes` |
 | [AOSP Notes](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-aosp-notes) | Open notes app | `device/xiaomi/piano-aosp-notes` |
-| [recovery](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-recovery) | TWRP and OrangeFox | `device/xiaomi/piano` |
+| [recovery](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-recovery) | TWRP, YARP and OrangeFox | `device/xiaomi/piano` |
 | [UEFI](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-uefi) | UEFI and boot menu | — |
 | [local_manifests](https://github.com/xiaomi-pad-8-pro-development/local_manifests) | Sync setup | `.repo/local_manifests` |
