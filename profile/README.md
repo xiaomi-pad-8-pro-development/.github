@@ -22,7 +22,7 @@ flowchart LR
     R[ROM patches] -.-> D
     M[local_manifests] ==>|repo sync| D
     D --> ROM((ROM))
-    REC[recovery] --> TWRP((TWRP / YARP / OrangeFox))
+    REC[recovery] --> TWRP((TWRP / YARP))
 ```
 
 Dashed: optional.
