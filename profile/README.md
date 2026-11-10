@@ -5,7 +5,7 @@ Custom ROMs, kernel and recovery for the **Xiaomi Pad 8 Pro** (`piano`, Snapdrag
 | | |
 | --- | --- |
 | Android | 17 |
-| Firmware | HyperOS 4 China `OS4.0.5.0.XPYCNXM` |
+| Firmware | HyperOS 4 China `OS4.0.6.0.XPYCNXM` |
 | Branch | `seventeen` |
 | Maintainer | [@ALXP-DANIEL](https://github.com/ALXP-DANIEL) |
 
@@ -52,4 +52,6 @@ repo sync
 | [AOSP Notes](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-aosp-notes) | Open notes app | `device/xiaomi/piano-aosp-notes` |
 | [recovery](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-recovery) | TWRP, YARP and OrangeFox | `device/xiaomi/piano` |
 | [UEFI](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-uefi) | UEFI and boot menu | — |
+| [UniXNU](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-unixnu) | Experimental iPadOS port | — |
+| [mainline kernel](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-kernel-mainline) | Mainline Linux with piano patches | — |
 | [local_manifests](https://github.com/xiaomi-pad-8-pro-development/local_manifests) | Sync setup | `.repo/local_manifests` |
